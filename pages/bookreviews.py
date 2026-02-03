@@ -1,7 +1,8 @@
 import streamlit as st
-
 import pandas as pd
 import plotly.express as px
+
+st.set_page_config(page_title="Book Reviews", layout="wide")
 
 df_reviews = pd.read_csv(
     "C:/Users/thiag/Documents/pyton-asimov/material/datasets/customer reviews.csv"
